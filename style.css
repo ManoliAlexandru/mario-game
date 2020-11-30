@@ -1,0 +1,35 @@
+.block {
+	position:absolute;
+	left:50px;
+	width:60px;
+	height:60px;
+	margin:5px;
+
+}
+
+.bomb {
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:40px;
+    height:40px;
+    margin:5px;
+}
+
+.box{
+    border: 2px solid blueviolet;
+    height: 550px;
+    width: 1300px;
+    background-image: url(img/bg-grass.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+
+}
+
+#score{
+    font-size: 24px;
+    color: blueviolet;
+    text-transform: uppercase;
+    border: 2px solid blueviolet;
+    width: 130px;
+}
